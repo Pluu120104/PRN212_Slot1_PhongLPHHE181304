@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ngon ngu lap trinh C# - C Sharp");
+            int n;
+
+            n = 100;
+            Console.WriteLine("Gia tri cua n sau khi gan 100: " + n);
+
+            n += 200; 
+            Console.WriteLine("gia tri cua n sau khi cong them 200: " + n);       
         }
     }
 }
